@@ -1,0 +1,32 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.field:not(:last-child) {
+  margin-right: 30px;
+}
+
+.value {
+  font-size: 40px;
+  text-align: center;
+  color: #d9b721;
+}
+
+.label{
+  padding: 10px;
+  background-color: #a3c0b0;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 16px;
+}
